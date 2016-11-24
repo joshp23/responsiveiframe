@@ -79,7 +79,7 @@ if (typeof jQuery !== 'undefined') {
 
       // Sets the height of the iframe
       setHeight : function (elem, height) {
-        elem.css('height', height + 'px');
+          elem.css('height', (height+20) + 'px');
       },
       getDocHeight: function () {
         var D = document;
